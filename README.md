@@ -29,6 +29,10 @@ match_data.get_begin(0)  # => 4
 match_data.get_end(0)    # => 5
 ```
 
+## WASM module
+
+The WASM module at vendor/onigmo.wasm was built from [onigmo-wasm](https://github.com/camertron/onigmo-wasm).
+
 ## Running Tests
 
 `bundle exec rake` should do the trick.
